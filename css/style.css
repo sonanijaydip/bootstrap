@@ -1,0 +1,14 @@
+.row{
+margin: 20px 0px;
+}
+.row > div:nth-child(odd){
+    background-color: aqua;
+    color: rgb(36, 32, 32);
+
+}
+.row > div:nth-child(even){
+    background-color: rgb(197, 247, 247);
+    color: rgb(15, 13, 13);
+    
+ 
+}

@@ -1,0 +1,240 @@
+/* cabin-regular - latin */
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Kumbh+Sans&display=swap');
+
+body{
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+}
+ul{
+    list-style: none;  
+}
+a{
+    text-decoration: none;
+}
+
+.spacer{
+    padding: 70px 0;
+    margin: 0;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+.container{
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* ===================================================navigation bar================================================== */
+.btn{
+    margin-right: 20px;
+    border-radius: 20px;
+    background-color: rgb(24, 44, 155);
+    color: white;
+}
+.btn:hover{
+    transition: .3s;
+    background-color: rgb(92, 76, 77);
+    color: white;
+}
+.main-menu li a{
+    text-transform: uppercase;
+    font-family: var(--fontRoboto);
+    font-weight: bold;
+    padding: 15px 20px !important;
+    letter-spacing: 1px;
+    color: #000;
+    display: block;
+}
+
+.main_menu li a.active, .main_menu li:hover > a{
+    color: blue !important;
+}
+.main_menu > li:first-child a{
+    padding-left: 0 !important;
+}
+.main_menu li{
+    position: relative;
+}
+.navbar-nav{
+    font-size: 15px;
+    position: relative;
+}
+.navbar-nav li:hover>a{
+    color: rgb(64, 52, 233);
+}
+.sub-menu{
+    position: absolute;
+    color: black;
+    background-color: rgb(248, 248, 248);
+    padding: 0 10px;
+    display: none;
+}
+.sub-menu li{
+    /* padding: 10px 10px; */
+    border-bottom: 1px solid rgba(0, 0, 0,0.1);
+}
+.sub-menu li a{
+    padding: 15px 20px !important;
+}
+.navbar-nav li:hover .sub-menu{
+    display: block;
+    
+}
+.sub-header{
+    padding: 30px 30px;
+
+    background-color: white;
+}
+.main-div{
+    background-color: antiquewhite;
+}
+
+.sub-header i{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: rgb(234, 241, 241);
+    text-align: center;
+    padding: 20px;
+    border-bottom: 30px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.sub-header:hover{
+    background-color: rgb(56, 110, 209);
+    color: white;
+    transition: .5s;
+    border-radius: 20px;
+    /* height: 250px; */
+}
+.sub-header:hover i{
+    color: black;
+}
+.sub-header:hover a{
+    color: white;
+}
+
+/* =================================================Website Solutions==================================================== */
+
+.button{
+    border: 1px solid black;
+    margin-bottom: 20px;
+    padding: 10px;
+    padding-top: 10px;
+    background-color: rgb(213, 233, 233);
+    border-radius: 0 0 10px 0;
+    color: rgb(31, 32, 34);
+    position: relative;
+}
+.button:after{
+    content: '';
+    height: 100%;
+    width: 3px;
+    background-color: rgb(25, 69, 166);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: .3s;
+    Border-radius: 0 0 10px 0;
+    /* z-index: 1; */
+
+}
+/* .button:hover{
+    /* color: white;
+    z-index: 5; */
+    /* position: relative; */
+/* } */
+.button .header{
+    z-index: 10 !important;
+    /* color: white; */
+    /* position: absolute; */
+}
+.button:hover::after{
+
+    width: 100%;
+}
+/* ============================counter========================================= */
+.counter{
+    background-image: url('../image/asset\ 23.jpeg');
+    object-fit: cover;
+    color: white;
+    padding: 50px 0;
+    width: 100% !important;
+} 
+.counter h2{
+    font-size: 45px;
+} 
+.counter h4{
+    font-size: 20px;
+}
+/* ===========================================photos========================================================== */
+.photos h4{
+    font-size: 18px;
+}
+.photos h5{
+    font-size: 15px;
+    color: #5e87eb;
+}
+.g-5{
+    --bs-gutter-y: 5rem
+}
+
+/* ======================================slider==================================================== */
+.our{
+    background-color: rgb(248, 243, 236);
+}
+.star{
+    background-color: azure;
+    padding: 10px;
+}
+.star h4{
+font-size: 18px;
+}
+.star h5{
+    font-size: 15px;
+}
+
+/* .star img{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+} */
+.avtar{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    border: 1px dashed black;
+}
+/* ======================have a project mind=========================================== */
+.counter1{
+    background-image: url('../image/asset\ 23.jpeg');
+    object-fit: cover;
+    color: white;
+    height: 100% !important;
+    width: 100% !important;
+} 
+.counter1 button{
+   height: 50px;
+   width: 150px;
+   border-radius: 30px;
+}
+.counter1 button:before{
+    content: '';
+    height: 100%;
+    width: 3px;
+    background-color: rgb(25, 69, 166);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: .3s;
+    Border-radius: 0 0 10px 0;
+}
+.
+
+

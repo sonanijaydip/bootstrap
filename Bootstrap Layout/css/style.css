@@ -1,0 +1,196 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Open+Sans:wght@300;400;700&family=Roboto&display=swap');*/
+
+
+/* roboto-regular - latin */
+@font-face {
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: 400;
+          src: url('../fonts/roboto-v27-latin-regular.eot'); /* IE9 Compat Modes */
+          src: local(''),
+               url('../fonts/roboto-v27-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+               url('../fonts/roboto-v27-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+               url('../fonts/roboto-v27-latin-regular.woff') format('woff'), /* Modern Browsers */
+               url('../fonts/roboto-v27-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+               url('../fonts/roboto-v27-latin-regular.svg#Roboto') format('svg'); /* Legacy iOS */
+        }
+        
+        /* open-sans-300 - latin */
+        @font-face {
+          font-family: 'Open Sans';
+          font-style: normal;
+          font-weight: 300;
+          src: url('../fonts/open-sans-v23-latin-300.eot'); /* IE9 Compat Modes */
+          src: local(''),
+               url('../fonts/open-sans-v23-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+               url('../fonts/open-sans-v23-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+               url('../fonts/open-sans-v23-latin-300.woff') format('woff'), /* Modern Browsers */
+               url('../fonts/open-sans-v23-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+               url('../fonts/open-sans-v23-latin-300.svg#OpenSans') format('svg'); /* Legacy iOS */
+        }
+        /* open-sans-regular - latin */
+        @font-face {
+          font-family: 'Open Sans';
+          font-style: normal;
+          font-weight: 400;
+          src: url('../fonts/open-sans-v23-latin-regular.eot'); /* IE9 Compat Modes */
+          src: local(''),
+               url('../fonts/open-sans-v23-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+               url('../fonts/open-sans-v23-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+               url('../fonts/open-sans-v23-latin-regular.woff') format('woff'), /* Modern Browsers */
+               url('../fonts/open-sans-v23-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+               url('../fonts/open-sans-v23-latin-regular.svg#OpenSans') format('svg'); /* Legacy iOS */
+        }
+        /* open-sans-700 - latin */
+        @font-face {
+          font-family: 'Open Sans';
+          font-style: normal;
+          font-weight: 700;
+          src: url('../fonts/open-sans-v23-latin-700.eot'); /* IE9 Compat Modes */
+          src: local(''),
+               url('../fonts/open-sans-v23-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+               url('../fonts/open-sans-v23-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+               url('../fonts/open-sans-v23-latin-700.woff') format('woff'), /* Modern Browsers */
+               url('../fonts/open-sans-v23-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+               url('../fonts/open-sans-v23-latin-700.svg#OpenSans') format('svg'); /* Legacy iOS */
+        }
+        
+        /* lato-regular - latin */
+        @font-face {
+          font-family: 'Lato';
+          font-style: normal;
+          font-weight: 400;
+          src: url('../fonts/lato-v20-latin-regular.eot'); /* IE9 Compat Modes */
+          src: local(''),
+               url('../fonts/lato-v20-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+               url('../fonts/lato-v20-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+               url('../fonts/lato-v20-latin-regular.woff') format('woff'), /* Modern Browsers */
+               url('../fonts/lato-v20-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+               url('../fonts/lato-v20-latin-regular.svg#Lato') format('svg'); /* Legacy iOS */
+        }
+        /* lato-900 - latin */
+        @font-face {
+          font-family: 'Lato';
+          font-style: normal;
+          font-weight: 900;
+          src: url('../fonts/lato-v20-latin-900.eot'); /* IE9 Compat Modes */
+          src: local(''),
+               url('../fonts/lato-v20-latin-900.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+               url('../fonts/lato-v20-latin-900.woff2') format('woff2'), /* Super Modern Browsers */
+               url('../fonts/lato-v20-latin-900.woff') format('woff'), /* Modern Browsers */
+               url('../fonts/lato-v20-latin-900.ttf') format('truetype'), /* Safari, Android, iOS */
+               url('../fonts/lato-v20-latin-900.svg#Lato') format('svg'); /* Legacy iOS */
+        }
+        
+        
+        /*
+        font-family: 'Lato', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        */
+
+:root{
+          --bgBlue: #26ACE3;
+          --bgYellow: #F2B604;
+          --txtBody:#7f7f7f;
+          --fontRoboto:'Roboto', sans-serif;
+          --fontLato:'Lato', sans-serif;
+}
+
+body{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        color: var(--txtBody);
+}
+ul{
+          margin: 0;
+          padding: 0;
+          list-style: none;
+}
+a{
+          text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+          margin: 0;
+}
+.bgBlue{
+          background-color: var(--bgBlue);
+          color: white;
+}
+.txtBlue{
+          color: var(--bgBlue);
+}
+.spacer{
+          padding-top: 70px;
+          padding-bottom: 70px;
+}
+.btn-theme{
+     padding: 13px 30px;
+     background-color: var(--bgBlue);
+     border-radius: 30px;
+     color: white;
+     font-weight: bold;
+}
+.btn-theme:hover{
+     background-color: var(--bgYellow);
+     color: white;
+}
+
+/* ========================================================================
+                                                                      Header
+==========================================================================*/
+
+.social_icon a{
+     color: white;
+     margin: 0 5px;
+     font-size: 18px;
+}
+.contact_info li{
+     margin-right: 30px;
+}
+.contact_info li:last-child{
+     margin-right: 0px;
+}
+
+/* Navbar */
+.main_menu li a{
+     text-transform: uppercase;
+     font-family: var(--fontRoboto);
+     font-weight: bold;
+     padding: 15px 20px !important;
+     letter-spacing: 1px;
+     color: #000;
+     display: block;
+}
+.main_menu li a.active, .main_menu li:hover > a{
+     color: var(--bgBlue) !important;
+}
+.main_menu > li:first-child a{
+     padding-left: 0 !important;
+}
+.main_menu li{
+     position: relative;
+}
+.sub_menu{
+     position: absolute;
+     top: 100%;
+     left: 0;
+     width: 175px;
+     background-color: white;
+     box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+     display: none;
+}
+.sub_menu li a{
+     padding: 10px !important;
+}
+.sub_menu li:hover > a{
+     background-color: var(--bgBlue);
+     color: white !important;
+}
+.main_menu li:hover .sub_menu{
+     display: block;
+}
+
+.left_graphics img{
+     width: 100% !important;
+}

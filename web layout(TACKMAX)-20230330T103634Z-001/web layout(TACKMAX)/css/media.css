@@ -1,0 +1,31 @@
+@media screen and (min-width: 991px){
+    .button{
+        /* display: none !important; */
+    }
+}
+@media screen and (min-width: 768px) {
+    .main_menu li{
+
+    border-bottom: 1px rgba(0, 0, 0, 0.1) solid;
+   }
+   .main_menu li a{
+        padding: 12px 15px !important;
+   }
+   .main_menu > li:first-child > a{
+        padding: 12px 15px !important;
+   }
+   .sub_menu li{
+        border-top: 2px rgba(0, 0, 0, 0.1) solid;
+        position: static;
+        box-shadow: none;
+        width: 100%;
+   }
+   .sub_menu li a{
+        padding-left:40px 20px !important;
+   }
+}
+@media screen and (max-width:767px){
+     .counter{
+     padding: 20px 0 !important;
+}
+}
